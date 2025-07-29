@@ -68,8 +68,6 @@ rails db:migrate
 rake db:seed
 ```
 
-*Optional*: To seed the database with initial data, please inform the repository owner to provide the seed data.
-
 ### Run the Application
 
 ```bash
