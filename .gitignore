@@ -30,3 +30,26 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# --- Editor & OS junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*~
+*.swp
+*.swo
+
+# --- Ruby / RSpec / Debug ---
+/vendor/bundle
+.byebug_history
+.rspec_status
+coverage/
+
+# --- SQLite dev/test db files 
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# --- Extra credentials/keys ---
+/config/credentials/*.key
+.kamal/secrets
