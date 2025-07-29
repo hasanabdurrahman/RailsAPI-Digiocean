@@ -7,6 +7,7 @@ This is a RESTful API built with Ruby on Rails that provides features such as to
 - **User Authentication**
 
   - `POST /signup`: Register a new user
+  - `GET /me`: Get detail user
   - `POST /auth/login`: Authenticate a user and provide JWT token
   - `GET /auth/logout`: Logout user (invalidate token on client-side)
 
